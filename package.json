@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@axe-core/playwright": "4.10.1",
+    "axe-core": "4.10.2",
+    "axe-playwright": "^2.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.10.0"
+  },
+  "scripts": {
+    "test": "npx playwright test"
+  }
+}
